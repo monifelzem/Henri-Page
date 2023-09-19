@@ -1,0 +1,38 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .video-player {
+        margin: 10px;
+        width: 320px;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .video-player h2 {
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .video-description {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+</style>
